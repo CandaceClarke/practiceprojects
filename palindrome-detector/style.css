@@ -1,13 +1,28 @@
+
+
 body {
     background-color: rgb(153, 238, 160);
+    text-align: center;
 };
 
-
-/* center elements, style 
-.detector {
+.intro {
     width: 100%;
-    height: 50em;
-    padding: 10em;
+    /*text-align: center; */
+}
+
+
+#detector {
+    width: 25%;
+    height: 25px;
+    padding: 5px;
     border: 2px solid rgb(77, 20, 131);
     border-radius: 5px;
+    margin-bottom: 10px;
 };
+
+.button {
+    background-color: rgb(155, 93, 214);
+    border: 4px solid rgb(77, 20, 131);
+    border-radius: 12px;
+    box-shadow: 3px;
+}
