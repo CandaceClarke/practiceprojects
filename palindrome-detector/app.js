@@ -2,16 +2,15 @@
 
 function detectPalindrome() {
 
-    const possiblePalindrome = document.getElementById("detector").value;
+    const possiblePalindrome = 
+    document.getElementById("detector").value.toLowerCase("").split(' ').join('').replace(/[^0-9a-z]/gi, '')
 
     const possiblePalindromeSplit = possiblePalindrome.split("").reverse().join("");
 
-// create cases for spaces, puntuation, capitalization
-
     if(possiblePalindrome == possiblePalindromeSplit) {
-        console.log("It's a palindrome!");
+        console.log("We've got a palindrome!");
     } else {
-        console.log("It's NOT a palindrome.");
+        console.log("Whoops- NOT a palindrome.");
     }
 
 }
