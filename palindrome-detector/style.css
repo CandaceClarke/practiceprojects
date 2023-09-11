@@ -3,7 +3,7 @@
 body {
     background-color: rgb(153, 238, 160);
     text-align: center;
-};
+}
 
 .intro {
     width: 100%;
@@ -18,11 +18,13 @@ body {
     border: 2px solid rgb(77, 20, 131);
     border-radius: 5px;
     margin-bottom: 10px;
-};
+}
 
-.button {
-    background-color: rgb(155, 93, 214);
-    border: 4px solid rgb(77, 20, 131);
-    border-radius: 12px;
-    box-shadow: 3px;
+
+
+#detect {
+    color: rgb(153, 238, 160);
+    background-color: rgb(77, 20, 131);
+    border-radius: 10px;
+    padding: 5px 8px;
 }
